@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 131, 245);
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+table{
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(235, 27, 166);
+    border-collapse: collapse;
+    box-shadow: 0 4px 15px rgb(143, 26, 118);
+}
+td{
+    padding: 18px;
+    border-bottom: 1px solid black;
+}
+tbody tr:hover{
+    background-color: rgb(238, 104, 238);
+}
+button{
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.08);
+}
+.basico{
+    background-color: rgb(247, 135, 228);
+    color: black;
+}
+.turbo{
+    background-color: rgb(243, 128, 247);
+    color: black;
+}
+.ultra{
+    background-color: rgb(248, 73, 234);
+    color: black;
+}
